@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .container{
@@ -22,15 +23,17 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    width: 500px;
+    height: 500px;
 }
 .make{
     display: flex;
-    
+    flex-grow: 1;
+    flex-wrap: wrap;
     
 }
 .cell{
-    height: 25px;
-    width: 25px;
+    flex-grow: 1;
     background-color: aliceblue;
 }
   

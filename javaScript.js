@@ -1,6 +1,7 @@
 
 const container = document.getElementById("container");
 
+let choose=16;
 
 function make(rows){
     for(i=1; i<=rows; i++){
@@ -8,7 +9,8 @@ function make(rows){
         container.appendChild(r).className="make";
         for(j=1; j<=rows; j++){
             const c = document.createElement("div");
-            c.innerText=j;
+            
+            
             r.appendChild(c).className="cell";
             
             c.addEventListener("mouseover",()=>{
@@ -18,7 +20,8 @@ function make(rows){
         }
     }
 }
-make(16);
+make(choose);
+
 
 
 
