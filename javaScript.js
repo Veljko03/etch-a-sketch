@@ -35,11 +35,10 @@ size.addEventListener("click", ()=>{
     let gridSize = prompt("Choose grid size between 16-64:");
     if(gridSize !=null && gridSize >0 && gridSize<=64){
         
-        const cell = document.getElementsByClassName("cell");
-        for(div of cell){
-            div.style.backgroundColor="white";
-        }
         
+        while(container.firstChild){
+            container.firstChild.remove();
+        }
         choose=gridSize;
         console.log(choose);
         make(choose);
