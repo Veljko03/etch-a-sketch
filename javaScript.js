@@ -39,8 +39,7 @@ size.addEventListener("click", ()=>{
         for(div of cell){
             div.style.backgroundColor="white";
         }
-       
-
+        
         choose=gridSize;
         console.log(choose);
         make(choose);
