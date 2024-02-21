@@ -1,9 +1,14 @@
 
 const container = document.getElementById("container");
-const restart = document.getElementById("restart");
+const restart = document.getElementById("rst");
 const size = document.getElementById("size");
 let choose= 16;
+
 console.log(choose);
+
+
+
+
 
 function make(rows){
     for(i=1; i<=rows; i++){
@@ -16,7 +21,7 @@ function make(rows){
             r.appendChild(c);
             
              c.addEventListener("mouseover",()=>{
-                 c.style.backgroundColor = "black";
+                 c.style.backgroundColor = document.getElementById("favcolor").value;
            });
            
         }
@@ -26,6 +31,8 @@ function make(rows){
 
 
 console.log(choose);
+
+
 
 
 
@@ -49,7 +56,10 @@ size.addEventListener("click", ()=>{
 
 
 restart.addEventListener("click", ()=>{
-    window.location.reload();
+    while(container.firstChild){
+        container.firstChild.remove();
+    }
+    make(choose);
 })
 
 

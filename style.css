@@ -43,7 +43,7 @@ body{
     background-color: rgb(37, 37, 38)
 }
 
-#rst,#size{
+#rst,#size,#color{
     color: black;
     background-color: burlywood;
     border-radius: 11px;
@@ -67,7 +67,12 @@ h5{
 }
 
 
- 
+ .buttons{
+    display: flex;
+    gap: 40px;
+ }
+
+
 
   
   
