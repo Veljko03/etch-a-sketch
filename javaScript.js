@@ -39,8 +39,8 @@ console.log(choose);
 size.addEventListener("click", ()=>{
     
         
-    let gridSize = prompt("Choose grid size between 16-64:");
-    if(gridSize !=null && gridSize >0 && gridSize<=64){
+    let gridSize = prompt("Choose grid size between 1-100:");
+    if(gridSize !=null && gridSize >0 && gridSize<=100){
         
         
         while(container.firstChild){
