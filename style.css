@@ -1,3 +1,5 @@
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -12,22 +14,34 @@ body{
 .c{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container{
-    width: 600px;
-    height: 600px;
-    background-color: antiquewhite;
     display: flex;
-    gap: 15px;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
 }
-
+.make{
+    display: flex;
+    
+    
+}
 .cell{
-    background-color: aqua;
-    width: 20px;
-    height: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: aliceblue;
+}
+  
+*{
+    background-color: lightslategray;
 }
 
+ 
+
+  
+  
+ 
   
 
