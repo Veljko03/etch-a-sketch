@@ -1,7 +1,7 @@
 
 const container = document.getElementById("container");
-
-let choose=16;
+const restart = document.getElementById("restart");
+let choose=64;
 
 function make(rows){
     for(i=1; i<=rows; i++){
@@ -20,6 +20,12 @@ function make(rows){
         }
     }
 }
+
+restart.addEventListener("click", ()=>{
+    window.location.reload();
+})
+
+
 make(choose);
 
 
