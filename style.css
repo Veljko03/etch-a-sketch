@@ -70,7 +70,15 @@ h5{
  .buttons{
     display: flex;
     gap: 40px;
+    
+    align-items: center;
  }
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
 
 
