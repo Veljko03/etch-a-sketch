@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: antiquewhite;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.cell{
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+}
+
+  
+
